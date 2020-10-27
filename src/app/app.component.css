@@ -1,0 +1,51 @@
+.content {
+  display: block;
+}
+
+.input__place {
+  padding: 3em;
+
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.attachment {
+  margin: 0.5em;
+  width: 7em;
+  height: 4em;
+
+  border: 3px solid black;
+  border-radius: 4px;
+}
+
+.submit {
+  border: none;
+  background: #54f542;
+
+  font-family: 'Trispace', sans-serif;
+  color: white;
+}
+
+.submit:active {
+  background: #3ba32f;
+}
+
+.output__place {
+  padding: 3em;
+
+  display: grid;
+  grid-template-rows: 1fr, 1fr;
+  grid-template-columns: 1fr;
+}
+
+h1 {
+  font-family: 'Trispace', sans-serif;
+}
+
+@media screen and (min-width: 300px) {
+  .container {
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns:  1fr 1fr;
+  }
+}
